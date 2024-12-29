@@ -51,3 +51,5 @@ _(This table will be updated daily.)_
 This project is licensed under the MIT License.
 
 Feel free to explore, fork, and contribute!
+
+PS: 21 days cuz exams are around the corner 😉
