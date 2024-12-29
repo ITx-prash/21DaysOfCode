@@ -35,7 +35,7 @@ _(This table will be updated daily.)_
 
 - [w3schools](https://www.w3schools.com/js/)
 - [JavaScript.info](https://javascript.info/)
-- ChatGPT
+- ChatGPT & more
 
 ---
 
