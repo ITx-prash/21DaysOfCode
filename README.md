@@ -15,11 +15,12 @@ Welcome to my **21 Days of Code** challenge! This repository documents my journe
 
 ## 📅 **Day-by-Day Progress**
 
-| Day | Topic                          | Summary                                                                   | Link                        |
-| --- | ------------------------------ | ------------------------------------------------------------------------- | --------------------------- |
-| 01  | JavaScript History & Execution | Learned about the history of JavaScript and how the code execution works. | [Day 1 Insights](./Day-01/) |
+| Day  | Topic                           | Summary                                                                   | Link                        |
+| ---- | ------------------------------- | ------------------------------------------------------------------------- | --------------------------- |
+| 01   | JavaScript History & Execution  | Learned about the history of JavaScript and how the code execution works. | [Day 1 Insights](./Day-01/) |
+| 02   | Execution Context in JavaScript | Explored the environment where JavaScript code runs, including global and function execution contexts, the call stack, and JIT compilation. | [Day 2 Insights](./Day-02/) |
 
-_(This table will be updated daily.)_
+*This table will be updated daily.*
 
 ---
 
@@ -35,7 +36,9 @@ _(This table will be updated daily.)_
 
 - [w3schools](https://www.w3schools.com/js/)
 - [JavaScript.info](https://javascript.info/)
-- ChatGPT & more
+- [YouTube](https://www.youtube.com/)
+- [Udemy](https://www.udemy.com/)
+- [ChatGPT](https://chatgpt.com/) & more
 
 ---
 
