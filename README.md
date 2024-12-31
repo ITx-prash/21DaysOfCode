@@ -19,6 +19,7 @@ Welcome to my **21 Days of Code** challenge! This repository documents my journe
 | ---- | ------------------------------- | ------------------------------------------------------------------------- | --------------------------- |
 | 01   | JavaScript History & Execution  | Learned about the history of JavaScript and how the code execution works. | [Day 1 Insights](./Day-01/) |
 | 02   | Execution Context in JavaScript | Explored the environment where JavaScript code runs, including global and function execution contexts, the call stack, and JIT compilation. | [Day 2 Insights](./Day-02/) |
+| 03   | JavaScript Data Types & Loops   | Explored JavaScript data types, loops, and objects, and revised key topics. | [Day 3 Insights](./Day-03/) |
 
 *This table will be updated daily.*
 
