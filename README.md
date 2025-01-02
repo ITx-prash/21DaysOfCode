@@ -15,12 +15,13 @@ Welcome to my **21 Days of Code** challenge! This repository documents my journe
 
 ## 📅 **Day-by-Day Progress**
 
-| Day | Topic                             | Summary                                                                                                                                     | Link                        |
-| --- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| 01  | JavaScript History & Execution    | Learned about the history of JavaScript and how the code execution works.                                                                   | [Day 1 Insights](./Day-01/) |
-| 02  | Execution Context in JavaScript   | Explored the environment where JavaScript code runs, including global and function execution contexts, the call stack, and JIT compilation. | [Day 2 Insights](./Day-02/) |
-| 03  | JavaScript Data Types & Loops     | Explored JavaScript data types, loops, and objects, and revised key topics.                                                                 | [Day 3 Insights](./Day-03/) |
-| 04  | Arrays, Array Methods & Iteration | Learned about arrays, array methods, and how to iterate through array elements effectively.                                                 | [Day 4 Insights](./Day-04/) |
+| Day | Topic                             | Summary                                                                                                                                                     | Link                        |
+| --- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
+| 01  | JavaScript History & Execution    | Learned about the history of JavaScript and how the code execution works.                                                                                   | [Day 1 Insights](./Day-01/) |
+| 02  | Execution Context in JavaScript   | Explored the environment where JavaScript code runs, including global and function execution contexts, the call stack, and JIT compilation.                 | [Day 2 Insights](./Day-02/) |
+| 03  | JavaScript Data Types & Loops     | Explored JavaScript data types, loops, and objects, and revised key topics.                                                                                 | [Day 3 Insights](./Day-03/) |
+| 04  | Arrays, Array Methods & Iteration | Learned about arrays, array methods, and how to iterate through array elements effectively.                                                                 | [Day 4 Insights](./Day-04/) |
+| 05  | Iterating Objects & Arrays        | Explored `for...in` for iterating through objects, `for...of` and `.forEach()` for arrays, and arrow functions. Solved various problems involving object and array looping. | [Day 5 Insights](./Day-05/) |
 
 _This table will be updated daily._
 
