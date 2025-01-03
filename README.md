@@ -1,4 +1,4 @@
-# 🌟 **21 Days of Code: A Journey into JavaScript**
+lems# 🌟 **21 Days of Code: A Journey into JavaScript**
 
 Welcome to my **21 Days of Code** challenge! This repository documents my journey of learning and practicing JavaScript, starting from its history and foundational concepts to advanced features. Follow along as I dive into the world of JavaScript and share my progress.
 
@@ -22,6 +22,7 @@ Welcome to my **21 Days of Code** challenge! This repository documents my journe
 | 03  | JavaScript Data Types & Loops     | Explored JavaScript data types, loops, and objects, and revised key topics.                                                                                 | [Day 3 Insights](./Day-03/) |
 | 04  | Arrays, Array Methods & Iteration | Learned about arrays, array methods, and how to iterate through array elements effectively.                                                                 | [Day 4 Insights](./Day-04/) |
 | 05  | Iterating Objects & Arrays        | Explored `for...in` for iterating through objects, `for...of` and `.forEach()` for arrays, and arrow functions. Solved various problems involving object and array looping. | [Day 5 Insights](./Day-05/) |
+| 06  | Higher-Order Functions & Array Methods | Delved into higher-order functions like `.forEach()`, and explored `filter()`, `Set`, `flat()`, and `reverse()` methods with examples and problems. | [Day 6 Insights](./Day-06/) |
 
 _This table will be updated daily._
 
