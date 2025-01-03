@@ -25,15 +25,6 @@ Welcome to my **21 Days of Code** challenge! This repository documents my journe
 
 _This table will be updated daily._
 
----
-
-## 📚 **What You'll Find Here**
-
-- **Insights:** Key learnings from each day.
-- **Code:** Hands-on practice and examples.
-- **Resources:** Links to articles, tutorials, and tools I used.
-
----
 
 ## 🌐 **Resources I Use**
 
