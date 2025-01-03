@@ -1,4 +1,4 @@
-lems# 🌟 **21 Days of Code: A Journey into JavaScript**
+# 🌟 **21 Days of Code: A Journey into JavaScript**
 
 Welcome to my **21 Days of Code** challenge! This repository documents my journey of learning and practicing JavaScript, starting from its history and foundational concepts to advanced features. Follow along as I dive into the world of JavaScript and share my progress.
 
