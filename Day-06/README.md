@@ -1,4 +1,41 @@
 # Day 6: Higher-Order Functions and Array Methods
+**Lexical Scoping**
+
+Lexical scoping refers to the scope of a variable being determined by its position within the source code. In JavaScript, a variable defined inside a function is only accessible within that function and any nested functions. This is because JavaScript uses lexical scoping, meaning the scope is defined at the time of writing the code, not at runtime.
+Example:
+```javascript
+function outerFunction() {
+  let outerVariable = 'I am outside!';
+
+  function innerFunction() {
+    console.log(outerVariable); // Can access outerVariable
+  }
+
+  innerFunction();
+}
+
+outerFunction(); // Output: I am outside!
+```
+In this example, innerFunction can access outerVariable because it is defined within the lexical scope of outerFunction.
+
+**Closures**
+
+A closure is a function that has access to variables in its outer (enclosing) scope, even after the outer function has returned. It's like a backpack of variables that a function carries around with it.
+
+Example:
+```javascript
+function createCounter() {
+    let count = 0;  // Private variable
+    
+    return function() {
+        count++;  // Access to count even after createCounter finishes
+        return count;
+    }
+}
+```
+In this example, createCounter returns a function that increments count. The count variable is accessible to the returned function even after createCounter has finished executing.
+
+**Higher-order functions**
 
 Higher-order functions are a key concept in JavaScript, offering flexibility and composability in coding. A function is considered higher-order if it:
 
