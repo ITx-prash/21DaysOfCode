@@ -1,5 +1,5 @@
 # Day 6: Higher-Order Functions and Array Methods
-**Lexical Scoping**
+## Lexical Scoping
 
 Lexical scoping refers to the scope of a variable being determined by its position within the source code. In JavaScript, a variable defined inside a function is only accessible within that function and any nested functions. This is because JavaScript uses lexical scoping, meaning the scope is defined at the time of writing the code, not at runtime.
 Example:
@@ -18,24 +18,44 @@ outerFunction(); // Output: I am outside!
 ```
 In this example, innerFunction can access outerVariable because it is defined within the lexical scope of outerFunction.
 
-**Closures**
+## Closures
 
-A closure is a function that has access to variables in its outer (enclosing) scope, even after the outer function has returned. It's like a backpack of variables that a function carries around with it.
+Closures are functions that retain access to their enclosing scope, even after the outer function has completed execution. It's like a backpack of variables that a function carries around with it.
 
-Example:
+**Example:**
 ```javascript
-function createCounter() {
-    let count = 0;  // Private variable
-    
-    return function() {
-        count++;  // Access to count even after createCounter finishes
-        return count;
-    }
+function greetUser(name) {
+  function showName() {
+    console.log(`Your name is ${name}`);
+  }
+  return showName; // return the function definition itself without calling it
 }
-```
-In this example, createCounter returns a function that increments count. The count variable is accessible to the returned function even after createCounter has finished executing.
 
-**Higher-order functions**
+const myName = greetUser("John"); // myName is now a function with preserved access to the name variable
+console.log(myName);
+
+myName(); // Your name is John
+
+```
+In this example, the outer function `greetUser` takes a parameter `name` and returns an inner function `showName`. The inner function retains access to the `name` parameter, even after the `name` function has finished execution. When `myName` is invoked, it logs the message with the preserved `name` value.
+
+**Deeper Dive:**
+
+When the return statement executes:
+- The outer function's execution context is indeed destroyed.
+- The variable `name` should be destroyed as well (kinda).
+  
+**BUT!** JavaScript creates a special "closure scope":
+
+- This closure scope contains the variables that the inner function references (`name` in this case).
+- The inner function maintains a reference to this closure scope, not to the original execution context.
+- This is why the inner function can still access `name` even after the `name` function has finished executing.
+- Closure doesn't preserve the entire execution context, but rather just the specific variables it needs in a closure scope.
+
+This is why closures are memory-efficient: they only retain what's necessary, not the entire scope of the outer function.
+
+
+## Higher-order functions
 
 Higher-order functions are a key concept in JavaScript, offering flexibility and composability in coding. A function is considered higher-order if it:
 
