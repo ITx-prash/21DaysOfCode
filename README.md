@@ -10,8 +10,6 @@ Welcome to my **21 Days of Code** challenge! This repository documents my journe
 - To explore its evolution and execution process.
 - To practice coding daily and build consistency.
 - To showcase my learning journey and contribute to open-source.
-
----
 ## 📅 **Day-by-Day Progress**
 
 | Day | Topic                             | Summary                                                                                                                                                     | Link                        |
@@ -22,9 +20,9 @@ Welcome to my **21 Days of Code** challenge! This repository documents my journe
 | 04  | Arrays, Array Methods & Iteration | Learned about arrays, array methods, and how to iterate through array elements effectively.                                                                 | [Day 4 Insights](./Day-04/) |
 | 05  | Iterating Objects & Arrays        | Explored `for...in` for iterating through objects, `for...of` and `.forEach()` for arrays, and arrow functions. Solved various problems involving object and array looping. | [Day 5 Insights](./Day-05/) |
 | 06  | Lexical Scoping, Closures & Array Methods | Delved into lexical scoping and closures, explored higher-order functions like `.forEach()`, and worked with `filter()`, `Set`, `flat()`, and `reverse()` methods with examples and problems. | [Day 6 Insights](./Day-06/) |
+| 07  | Hoisting, Scopes & Advanced Array Methods | Learned about hoisting of variables and functions, differences between `var` and `let` scopes, and practiced array methods like `map()`, `reduce()`, and `filter()`. Solved related problems. | [Day 7 Insights](./Day-07/) |
 
 _This table will be updated daily._
-
 
 ## 🌐 **Resources I Use**
 
