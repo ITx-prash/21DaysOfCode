@@ -82,27 +82,17 @@ arr.forEach((name) => {
 ## Some Useful Array Methods
 
 ### 1. `filter()`
-The `filter()` method returns a new array with elements that pass a specific condition. Unlike `forEach`, it doesn't just iterate but gives a filtered result.
 
-#### Task: Filter Numbers from an Array
+The `filter()` method is a higher-order function that accepts a callback function as its argument. The callback function is called with each element in the array, and the elements that return `true` are included in the new array.
+
+#### Example
 
 ```javascript
-function filter(arr) {
-  return arr.filter((item) => {
-    return typeof item === "number";
-  });
-}
-console.log(filter(["ram", "hari", 45, 4.5, true, 1]));
+const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// OR
-
-function filterNumbers(arr) {
-  return arr.filter((items) => typeof items === "number");
-}
-const filteredArray = filterNumbers(["ram", "hari", 45, 4.5, true, 1]);
-console.log(filteredArray);
+const evenNums = nums.filter((value) => value % 2 === 0);
+console.log(evenNums); // Output: [2, 4, 6, 8, 10]
 ```
-
 > **Note:** Arrow functions can have implicit returns if the function body is a single line and curly braces are omitted.
 
 ---
