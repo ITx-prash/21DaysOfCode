@@ -22,6 +22,7 @@ Welcome to my **21 Days of Code** challenge! This repository documents my journe
 | 06  | Lexical Scoping, Closures & Array Methods | Delved into lexical scoping and closures, explored higher-order functions like `.forEach()`, and worked with `filter()`, `Set`, `flat()`, and `reverse()` methods with examples and problems. | [Day 6 Insights](./Day-06/) |
 | 07  | Hoisting, Scopes & Advanced Array Methods | Learned about hoisting of variables and functions, differences between `var` and `let` scopes, and practiced array methods like `map()`, `reduce()`, and `filter()`. Solved related problems. | [Day 7 Insights](./Day-07/) |
 | 08  | Prototype Chain & Objects         | Explored JavaScript's prototype chain, how objects inherit properties and methods, and why it's often said that "everything in JavaScript is an object."   | [Day 8 Insights](./Day-08/) |
+| 09  | OOP in JavaScript                 | Explored Object-Oriented Programming in JavaScript, focusing on inheritance, constructor functions, prototypes, and ES6 classes. Practiced creating objects and using class inheritance. | [Day 9 Insights](./Day-09/) |
 
 _This table will be updated daily._
 
