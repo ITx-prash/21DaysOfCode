@@ -14,17 +14,18 @@ console.log(popped);
 
 // Data Type Copying Behavior
 let countryList1 = ["Nepal", "India", "USA"];
-let countryList2 = countryList1;
+let countryList2 = countryList1; // Copy by reference, alter the original array
 countryList2.pop();
-console.log(countryList1);
-console.log(countryList2);
+console.log(countryList1); // ["Nepal", "India"]
+console.log(countryList2); // ["Nepal", "India"]
 
 // Spread Operator Example
+//creates a shallow copy(reference to the original) for nested arrays and objects
 const nestedNums = [2, 3, 4, [5, 6]];
 const nestedNumsCopy = [...nestedNums];
 nestedNumsCopy[3][0] = "Changed";
-console.log(nestedNums);
-console.log(nestedNumsCopy);
+console.log(nestedNums);// [2, 3, 4, ["Changed", 6]]
+console.log(nestedNumsCopy);// [2, 3, 4, ["Changed", 6]]
 
 // Array Methods
 let numbers1 = [1, 2, 3];
