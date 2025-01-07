@@ -23,8 +23,10 @@ Welcome to my **21 Days of Code** challenge! This repository documents my journe
 | 07  | Hoisting, Scopes & Advanced Array Methods | Learned about hoisting of variables and functions, differences between `var` and `let` scopes, and practiced array methods like `map()`, `reduce()`, and `filter()`. Solved related problems. | [Day 7 Insights](./Day-07/) |
 | 08  | Prototype Chain & Objects         | Explored JavaScript's prototype chain, how objects inherit properties and methods, and why it's often said that "everything in JavaScript is an object."   | [Day 8 Insights](./Day-08/) |
 | 09  | OOP in JavaScript                 | Explored Object-Oriented Programming in JavaScript, focusing on inheritance, constructor functions, prototypes, and ES6 classes. Practiced creating objects and using class inheritance. | [Day 9 Insights](./Day-09/) |
+| 10  | Encapsulation, Abstraction, Polymorphism & Static Methods | Learned about encapsulation, abstraction, and polymorphism in OOP. Practiced with examples of private variables, method overriding, and static methods in JavaScript. | [Day 10 Insights](./Day-10/) |
 
 _This table will be updated daily._
+
 
 ## 🌐 **Resources I Use**
 
