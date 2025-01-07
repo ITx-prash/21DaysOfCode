@@ -151,6 +151,33 @@ console.log(monkey.jump());  // Output: Monu jumps
 ```
 
 ---
+## Notes:
+The constructor function inside a **JavaScript class** is used to initialize object **properties** when an instance is created. If property initialization is unnecessary, the constructor can be omitted, and methods can be directly defined inside the class.
 
-## Summary
-Object-Oriented Programming in JavaScript is versatile, supporting both prototype-based and class-based paradigms. Understanding the underlying concepts, such as constructor functions, prototypes, and ES6 classes, is crucial for writing modular, reusable, and maintainable code.
+### Constructor Function
+
+- Initializes properties of an object instance.
+- Automatically called when a new instance is created.
+
+#### Example:
+
+```javascript
+class Example {
+  constructor(property) {
+    this.property = property;
+  }
+}
+```
+
+### Defining Methods
+
+Methods can be defined directly inside the class without requiring a constructor.
+
+#### Example:
+
+```javascript
+class Example {
+  method() {
+    // method logic
+  }
+}
