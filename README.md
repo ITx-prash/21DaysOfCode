@@ -24,6 +24,7 @@ Welcome to my **21 Days of Code** challenge! This repository documents my journe
 | 08  | Prototype Chain & Objects         | Explored JavaScript's prototype chain, how objects inherit properties and methods, and why it's often said that "everything in JavaScript is an object."   | [Day 8 Insights](./Day-08/) |
 | 09  | OOP in JavaScript                 | Explored Object-Oriented Programming in JavaScript, focusing on inheritance, constructor functions, prototypes, and ES6 classes. Practiced creating objects and using class inheritance. | [Day 9 Insights](./Day-09/) |
 | 10  | Encapsulation, Abstraction, Polymorphism & Static Methods | Learned about encapsulation, abstraction, and polymorphism in OOP. Practiced with examples of private variables, method overriding, and static methods in JavaScript. | [Day 10 Insights](./Day-10/) |
+| 11  | Getters, Setters & OOP Examples   | Practiced Object-Oriented Programming concepts like getters and setters, class inheritance, encapsulation, and polymorphism through small coding exercises. | [Day 11 Insights](./Day-11/) |
 
 _This table will be updated daily._
 
