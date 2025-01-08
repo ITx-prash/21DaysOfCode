@@ -46,7 +46,7 @@ console.log(user2);
 ```
 
 ### Adding Methods to Constructor Functions
-We can add methods to the prototype of a constructor function, ensuring that all instances share the same method. This approach is memory efficient.
+We can add methods to the prototype of a constructor function, (although we can also define the method inside the constructor function itself) ensuring that all instances share the same method. This approach is memory efficient.
 
 ```javascript
 function Animal(species) {
