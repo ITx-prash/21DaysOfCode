@@ -25,8 +25,10 @@ Welcome to my **21 Days of Code** challenge! This repository documents my journe
 | 09  | OOP in JavaScript                 | Explored Object-Oriented Programming in JavaScript, focusing on inheritance, constructor functions, prototypes, and ES6 classes. Practiced creating objects and using class inheritance. | [Day 9 Insights](./Day-09/) |
 | 10  | Encapsulation, Abstraction, Polymorphism & Static Methods | Learned about encapsulation, abstraction, and polymorphism in OOP. Practiced with examples of private variables, method overriding, and static methods in JavaScript. | [Day 10 Insights](./Day-10/) |
 | 11  | Getters, Setters & OOP Examples   | Practiced Object-Oriented Programming concepts like getters and setters, class inheritance, encapsulation, and polymorphism through small coding exercises. | [Day 11 Insights](./Day-11/) |
+| 12  | DOM Manipulation                  | Solved practical DOM manipulation problems, including accessing and traversing elements, adding/removing elements, CSS class toggling etc.  | [Day 12 Insights](./Day-12/) |
 
 _This table will be updated daily._
+
 
 
 ## 🌐 **Resources I Use**
