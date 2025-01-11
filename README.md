@@ -28,6 +28,7 @@ Welcome to my **21 Days of Code** challenge! This repository documents my journe
 | 12  | DOM Manipulation                  | Solved practical DOM manipulation problems, including accessing and traversing elements, adding/removing elements, CSS class toggling etc.  | [Day 12 Insights](./Day-12/) |
 | 13  | Asynchronous Behavior in JavaScript  | Learned how JavaScript handles asynchronous operations, including concepts like callbacks, the callback queue, the event loop. Explored examples of synchronous and asynchronous behavior.  | [Day 12 Insights](./Day-13/) |
 | 14  | Promises & Function Methods       | Explored promises to handle asynchronous operations, including `then`, `catch`, and chaining. Learned about `call`, `apply`, and `bind` methods for context manipulation. | [Day 14 Insights](./Day-14/) |
+
 _This table will be updated daily._
 
 
