@@ -26,7 +26,7 @@ let person = {
 let per = {};
 
 for (const key in person) {
-  console.log(key);
+  console.log(key); // Key of the current property like First, Last name, class, level
   console.log(person[key]); // Value of the current key
   per[key] = person[key];
   console.log(per[key]);
