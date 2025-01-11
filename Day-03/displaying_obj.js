@@ -5,14 +5,14 @@ console.log("Hello," + " " + name1 + "!");
 let greet2 = `Hello, ${name1}!`; //better
 
 console.log(`Hello, ${name1}!`);
-console.log(greet); //same o/p as above
+console.log(greet2); //same o/p as above
 
 console.log(`sum: ${1 + 2}`);
 //About objects:
 const name2 = "Pras";
 greet2 = `Hello, ${name1}!`;
 console.log(`Hello, ${name1}!`);
-console.log(greet);
+console.log(greet2);
 
 console.log(`sum: ${1 + 2}`);
 
