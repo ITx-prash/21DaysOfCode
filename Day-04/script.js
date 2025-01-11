@@ -1,16 +1,16 @@
 // Array Basics
 let myArray1 = ["Marvel", "DC", 1, 2, true];
-console.log(myArray1);
+console.log(myArray1); // ["Marvel", "DC", 1, 2, true]
 
 // Push Example
 let pushed = myArray1.push("Praz");
-console.log(myArray1);
-console.log(pushed);
+console.log(myArray1); // ["Marvel", "DC", 1, 2, true, "Praz"]
+console.log(pushed); // 6
 
 // Pop Example
 let popped = myArray1.pop();
-console.log(myArray1);
-console.log(popped);
+console.log(myArray1);  // ["Marvel", "DC", 1, 2, true]
+console.log(popped);  // Praz
 
 // Data Type Copying Behavior
 let countryList1 = ["Nepal", "India", "USA"];
@@ -31,17 +31,17 @@ console.log(nestedNumsCopy);// [2, 3, 4, ["Changed", 6]]
 let numbers1 = [1, 2, 3];
 let numbers2 = [4, 5, 6];
 let combinedNumbers = numbers1.concat(numbers2);
-console.log(combinedNumbers);
+console.log(combinedNumbers); // [1, 2, 3, 4, 5, 6]
 
 let len = combinedNumbers.length;
-console.log(len);
+console.log(len); // 6
 
 let namesList = ["Pras", "Praz", "Joe"];
 namesList.shift();
-console.log(namesList);
+console.log(namesList); // ["Praz", "Joe"]
 
 namesList.unshift("Don", "Mike");
-console.log(namesList);
+console.log(namesList); // ["Don", "Mike", "Praz", "Joe"]
 
 // Coding Challenges
 
@@ -52,14 +52,14 @@ for (let i = 0; i < teaList1.length; i++) {
   if (teaList1[i] === "chai") break;
   selectedTeas.push(teaList1[i]);
 }
-console.log(selectedTeas);
+console.log(selectedTeas); // ["green tea", "black tea"]
 
 // 2. Skip an Element
 let cities = ["London", "New York", "Paris", "Berlin"];
 let visitedCities = [];
 for (let i = 0; i < cities.length; i++) {
   if (cities[i] === "Paris") continue;
-  visitedCities.push(cities[i]);
+  visitedCities.push(cities[i]); // ["London", "New York", "Berlin"]
 }
 console.log(visitedCities);
 
@@ -70,7 +70,7 @@ for (const num of numberSequence) {
   if (num === 4) break;
   smallNumbers.push(num);
 }
-console.log(smallNumbers);
+console.log(smallNumbers); // [1, 2, 3]
 
 // 4. For-Of Skip Example
 let teaList2 = ["chai", "green tea", "herbal tea", "black tea"];
@@ -79,4 +79,4 @@ for (const tea of teaList2) {
   if (tea === "herbal tea") continue;
   preferredTeas.push(tea);
 }
-console.log(preferredTeas);
+console.log(preferredTeas); // ["chai", "green tea", "black tea"]
