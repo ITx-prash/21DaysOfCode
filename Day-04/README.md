@@ -81,6 +81,7 @@ console.log(popped);
   - The spread operator works perfectly for creating a new array with primitive values, which might make it seem like a deep copy.
 
 - The key distinction becomes clear when we have nested arrays or objects:
+
   ```javascript
   const nestedNums = [2, 3, 4, [5, 6]];
   const nestedNumsCopy = [...nestedNums];
@@ -88,8 +89,25 @@ console.log(popped);
   nestedNumsCopy[3][0] = "Prash"; // to access the first element inside the 3rd index
   console.log(nestedNums); //[ 2, 3, 4, [ 'Prash', 6 ] ]
   ```
+
   - For primitive values like strings, numbers, and booleans, the spread operator creates what appears to be a completely independent copy.
-  - But for nested objects or arrays, it still maintains references to the original nested structures.
+  - But for nested objects or arrays, it still maintains references to the original nested structures only when we actually alter that nested structure, i.e. only altering the top-level array, and not altering the nested arrays will not affect the original array.
+
+  Example:
+
+  ```javascript
+  let arr = [2, 3, "Pras", [4, 5], 5];
+  let arr2 = [...arr];
+  console.log(arr2); // [ 2, 3, 'Pras', [ 4, 5 ], 5 ]
+  // won't alter the original array
+  arr2[0] = 10;
+  console.log(arr2); // [ 10, 3, 'Pras', [ 4, 5 ], 5 ]
+  console.log(arr); // [2, 3, 'Pras', [ 4, 5 ], 5 ]
+  // it will alter the original array
+  arr2[3][0] = 20;
+  console.log(arr2); // [ 10, 3, 'Pras', [ 20, 5 ], 5 ]
+  console.log(arr); // [2, 3, 'Pras', [ 20, 5 ], 5 ]
+  ```
 
 ### Spread Operator with Objects
 
