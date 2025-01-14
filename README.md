@@ -30,6 +30,8 @@ Welcome to my **21 Days of Code** challenge! This repository documents my journe
 | 14  | Promises & Function Methods       | Explored promises to handle asynchronous operations, including `then`, `catch`, and chaining. Learned about `call`, `apply`, and `bind` methods for context manipulation. | [Day 14 Insights](./Day-14/) |
 | 15  | Async and Await in JavaScript     | Overview of how `async` and `await` work together to handle promises in JavaScript. | [Day 15 Insights](./Day-15/) |
 | 16  | Revision     | Revised the learning | [Day 16 Insights](./Day-16/) |
+| 17  | Local Storage | Started building a simple to-do app and explored local storage | [Day 17 Insights](./Day-17/) |
+
 
 _This table will be updated daily._
 
