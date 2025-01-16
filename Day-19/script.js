@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const descriptionDisplay = document.getElementById("description");
   const errorMsg = document.getElementById("error-message");
 
-  const API_KEY = "ffa9a0bb71f31edb9e401c4a3424576e"; //API key for openweathermap.org and it is free but it is recommended to hold it in a .env file (environment variable)
+  const API_KEY = "......"; //API key for openweathermap.org and it is free but it is recommended to hold it in a .env file (environment variable)
 
   weatherBtn.addEventListener("click", () => {
     city = cityInput.value.trim();
