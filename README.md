@@ -33,6 +33,7 @@ Welcome to my **21 Days of Code** challenge! This repository documents my journe
 | 16  | Revision                                                  | Revised the learning                                                                                                                                                                          | [Day 16 Insights](./Day-16/) |
 | 17  | Local Storage                                             | Started building a simple to-do app and explored local storage                                                                                                                                | [Day 17 Insights](./Day-17/) |
 | 18  | Simple To-Do App                                          | Implemented features such as adding, marking as completed, and deleting items. Future plans include integrating authentication and authorization.                                             | [Day 18 Insights](./Day-18/) |
+| 19  | Redo To-Do App and API Fetch                              | Not much progress , rebuilt the to-do app for practice and started learning about fetching APIs while working on a weather app.                                       | [Day 19 Insights](./Day-19/) |
 
 _This table will be updated daily._
 
