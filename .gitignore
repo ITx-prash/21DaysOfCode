@@ -4,3 +4,7 @@ temp.md
 temp2.js
 temp
 To-Do
+node_modules
+.env
+package-lock.json
+package.json
