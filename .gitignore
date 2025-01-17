@@ -9,6 +9,4 @@ node_modules
 package-lock.json
 package.json
 weather
-weather/index.html
-weather/script.js
-weather/styles.css
+
