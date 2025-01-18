@@ -35,9 +35,9 @@ Welcome to my **21 Days of Code** challenge! This repository documents my journe
 | 18  | Simple To-Do App                                          | Implemented features such as adding, marking as completed, and deleting items. Future plans include integrating authentication and authorization.                                             | [Day 18 Insights](./Day-18/) |
 | 19  | Redo To-Do App and API Fetch                              | Not much progress , rebuilt the to-do app for practice and started learning about fetching APIs while working on a weather app.                                       | [Day 19 Insights](./Day-19/) |
 | 20  | Building Weather App                                     | Worked on fetching real-time weather data using APIs and dynamically updating the UI for a sleek user experience.                                                 | [Day 20 Insights](./Day-20/) |
+| 21  | Reflecting on the Challenge                             | Wrapped up the 21-day journey, reflecting on consistency, learning JavaScript basics, and connecting with an inspiring coding community.                          | [Day 21 Insights](./Day-21/) |
 
-_This table will be updated daily._
-
+_The table will no longer be updated as this concludes the 21-day challenge._
 
 ## 🌐 **Resources I Use**
 
